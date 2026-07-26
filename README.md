@@ -4,7 +4,7 @@ This project is a simple FastAPI-based CRUD API for managing tasks.
 
 ## What we built
 - A FastAPI application in `main.py`
-- In-memory task storage with CRUD operations
+- SQLite persistence with a local `tasks.db` file
 - Endpoints for listing, creating, updating, and deleting tasks
 - Health check endpoint for basic verification
 
